@@ -9,21 +9,21 @@ This is a Java API you can use to download the historical data from interval 1 t
 
 ## Generate link to download
 First of all you need to generate the link by calling the class YahooLinkGen
-```
-        YahooLinkGen link = new YahooLinkGen(company);
-        // you set the from interval by adding true at the end
-        link.setIntervalDate(3, 1, 2017, true);
-        // you set the to interval by adding false at the end
-        link.setIntervalDate(3, 2, 2017, false);
+```java
+    YahooLinkGen link = new YahooLinkGen(company);
+    // you set the from interval by adding true at the end
+    link.setIntervalDate(3, 1, 2017, true);
+    // you set the to interval by adding false at the end
+    link.setIntervalDate(3, 2, 2017, false);
 ```
 
 ## Download Data
 YahooLink Gen will generate the link according to the company and the interval you give
 Then you must use the ```YahooFileDownloader``` where you must pass the YahooLinkGen instance 
 as parameter to initialize ```YahooFileDownloader``` constructor
-```
-        YahooFileDownloader yd = new YahooFileDownloader(link);
-        System.out.println(link.getString());
+```java
+    YahooFileDownloader yd = new YahooFileDownloader(link);
+    System.out.println(link.getString());
 ```
 
 After you create an instance you can use ```getString()``` to get the string or you can use
