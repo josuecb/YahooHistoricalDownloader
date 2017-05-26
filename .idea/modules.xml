@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/YahooHistoricalDownloader.iml" filepath="$PROJECT_DIR$/YahooHistoricalDownloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/YahooHistoricalDownloader_main.iml" filepath="$PROJECT_DIR$/.idea/modules/YahooHistoricalDownloader_main.iml" group="YahooHistoricalDownloader" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/YahooHistoricalDownloader_test.iml" filepath="$PROJECT_DIR$/.idea/modules/YahooHistoricalDownloader_test.iml" group="YahooHistoricalDownloader" />
+    </modules>
+  </component>
+</project>
