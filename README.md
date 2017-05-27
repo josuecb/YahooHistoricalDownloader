@@ -23,7 +23,7 @@ Then you must use the ```YahooFileDownloader``` where you must pass the YahooLin
 as parameter to initialize ```YahooFileDownloader``` constructor
 ```java
     YahooFileDownloader yd = new YahooFileDownloader(link);
-    System.out.println(link.getString());
+    System.out.println(yd.getString());
 ```
 
 After you create an instance you can use ```getString()``` to get the string or you can use
